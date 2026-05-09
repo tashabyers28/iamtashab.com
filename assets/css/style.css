@@ -31,7 +31,7 @@
 26. About
 27. Brand
 28. Footer
-29. Experience
+29. Portfolio
 30. Slickstyle
 31. Home Classic
 32. White Version
@@ -16903,7 +16903,7 @@ span.sr-only {
   margin: 0;
 }
 
-.experience-popup-thumbnail img {
+.portfolio-popup-thumbnail img {
   border-radius: 10px;
 }
 
@@ -17362,9 +17362,9 @@ span.sr-only {
 }
 
 /*---------------------------
-    experience Area Styles 
+    Portfolio Area Styles 
 -----------------------------*/
-.rn-experience,
+.rn-portfolio,
 .rn-blog {
   text-align: left;
   padding: 30px;
@@ -17379,24 +17379,24 @@ span.sr-only {
   display: inline-block;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .rn-experience,
+  .rn-portfolio,
 .rn-blog {
     padding: 30px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .rn-experience,
+  .rn-portfolio,
 .rn-blog {
     padding: 20px;
   }
 }
-.rn-experience .inner .thumbnail a,
+.rn-portfolio .inner .thumbnail a,
 .rn-blog .inner .thumbnail a {
   display: block;
   overflow: hidden;
   border-radius: 10px;
 }
-.rn-experience .inner .thumbnail a img,
+.rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
   width: 100%;
   transition: var(--transition);
@@ -17404,12 +17404,12 @@ span.sr-only {
   object-fit: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .rn-experience .inner .thumbnail a img,
+  .rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
     height: inherit;
   }
 }
-.rn-experience .inner .thumbnail a video,
+.rn-portfolio .inner .thumbnail a video,
 .rn-blog .inner .thumbnail a video {
   border-radius: 10px;
   height: 100%;
@@ -17418,28 +17418,28 @@ span.sr-only {
   width: 100%;
 }
 @media only screen and (max-width: 479px) {
-  .rn-experience .inner .thumbnail a,
+  .rn-portfolio .inner .thumbnail a,
 .rn-blog .inner .thumbnail a {
     display: inline-flex;
   }
 }
-.rn-experience .inner .content,
+.rn-portfolio .inner .content,
 .rn-blog .inner .content {
   padding-top: 18px;
 }
-.rn-experience .inner .content .category-info,
+.rn-portfolio .inner .content .category-info,
 .rn-blog .inner .content .category-info {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
 }
-.rn-experience .inner .content .category-info .category-list,
+.rn-portfolio .inner .content .category-info .category-list,
 .rn-blog .inner .content .category-info .category-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
-.rn-experience .inner .content .category-info .category-list a,
+.rn-portfolio .inner .content .category-info .category-list a,
 .rn-blog .inner .content .category-info .category-list a {
   color: var(--color-primary);
   font-weight: 500;
@@ -17449,30 +17449,30 @@ span.sr-only {
   text-transform: uppercase;
   display: block;
 }
-.rn-experience .inner .content .category-info .meta span,
+.rn-portfolio .inner .content .category-info .meta span,
 .rn-blog .inner .content .category-info .meta span {
   color: var(--color-lightn);
   font-weight: 500;
   font-family: var(--font-primary);
   font-size: 13px;
 }
-.rn-experience .inner .content .category-info .meta span i,
+.rn-portfolio .inner .content .category-info .meta span i,
 .rn-blog .inner .content .category-info .meta span i {
   margin-right: 2px;
   font-size: 13px;
   transition: var(--transition);
 }
-.rn-experience .inner .content .category-info .meta span a i,
+.rn-portfolio .inner .content .category-info .meta span a i,
 .rn-blog .inner .content .category-info .meta span a i {
   margin-right: 2px;
   font-size: 13px;
   transition: var(--transition);
 }
-.rn-experience .inner .content .title,
+.rn-portfolio .inner .content .title,
 .rn-blog .inner .content .title {
   margin: 0;
 }
-.rn-experience .inner .content .title a,
+.rn-portfolio .inner .content .title a,
 .rn-blog .inner .content .title a {
   transition: var(--transition);
   color: var(--color-lightn);
@@ -17482,13 +17482,13 @@ span.sr-only {
   display: inline-block;
 }
 @media only screen and (max-width: 479px) {
-  .rn-experience .inner .content .title a,
+  .rn-portfolio .inner .content .title a,
 .rn-blog .inner .content .title a {
     font-size: 15px;
     line-height: 25px;
   }
 }
-.rn-experience .inner .content .title a i,
+.rn-portfolio .inner .content .title a i,
 .rn-blog .inner .content .title a i {
   font-size: 0;
   position: relative;
@@ -17496,18 +17496,18 @@ span.sr-only {
   transition: var(--transition);
   opacity: 0;
 }
-.rn-experience .inner .content .title:hover a,
+.rn-portfolio .inner .content .title:hover a,
 .rn-blog .inner .content .title:hover a {
   color: var(--color-primary);
 }
-.rn-experience .inner .content .title:hover a i,
+.rn-portfolio .inner .content .title:hover a i,
 .rn-blog .inner .content .title:hover a i {
   color: var(--color-primary);
   top: 3px;
   opacity: 1;
   font-size: 23px;
 }
-.rn-experience::before,
+.rn-portfolio::before,
 .rn-blog::before {
   content: "";
   position: absolute;
@@ -17521,15 +17521,15 @@ span.sr-only {
   opacity: 0;
   z-index: -1;
 }
-.rn-experience:hover::before,
+.rn-portfolio:hover::before,
 .rn-blog:hover::before {
   opacity: 1;
 }
-.rn-experience:hover .thumbnail a img,
+.rn-portfolio:hover .thumbnail a img,
 .rn-blog:hover .thumbnail a img {
   transform: scale(1.1);
 }
-.rn-experience:hover video,
+.rn-portfolio:hover video,
 .rn-blog:hover video {
   transform: scale(1.1);
 }
@@ -17591,7 +17591,7 @@ span.sr-only {
   z-index: 1;
 }
 
-.experience-slick-activation .rn-experience-slick {
+.portfolio-slick-activation .rn-portfolio-slick {
   padding: 35px 15px;
 }
 
@@ -17607,34 +17607,34 @@ span.sr-only {
   padding: 35px 15px;
 }
 /*-----------------------------
-    experience Style Two  
+    Portfolio Style Two  
 -------------------------------*/
-.experience-style-two .carousel.slide {
+.portfolio-style-two .carousel.slide {
   box-shadow: var(--shadow-1);
   border-radius: 10px !important;
   padding: 55px !important;
   margin-top: 55px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .experience-style-two .carousel.slide {
+  .portfolio-style-two .carousel.slide {
     padding: 30px !important;
     margin-top: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel.slide {
+  .portfolio-style-two .carousel.slide {
     padding: 30px !important;
     margin-top: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel.slide {
+  .portfolio-style-two .carousel.slide {
     padding: 30px !important;
     margin-top: 20px;
   }
 }
-.experience-style-two .carousel.slide .carousel-control-next,
-.experience-style-two .carousel.slide .carousel-control-prev {
+.portfolio-style-two .carousel.slide .carousel-control-next,
+.portfolio-style-two .carousel.slide .carousel-control-prev {
   position: absolute;
   bottom: 0;
   z-index: 1;
@@ -17655,180 +17655,180 @@ span.sr-only {
   background-color: #212428;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel.slide .carousel-control-next,
-.experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-next,
+.portfolio-style-two .carousel.slide .carousel-control-prev {
     padding: 26px;
     border-radius: 22%;
   }
 }
 @media only screen and (max-width: 575px) {
-  .experience-style-two .carousel.slide .carousel-control-next,
-.experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-next,
+.portfolio-style-two .carousel.slide .carousel-control-prev {
     padding: 25px;
     top: 752px;
     border-radius: 19%;
   }
 }
 @media only screen and (max-width: 479px) {
-  .experience-style-two .carousel.slide .carousel-control-next,
-.experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-next,
+.portfolio-style-two .carousel.slide .carousel-control-prev {
     top: 703px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel.slide .carousel-control-next,
-.experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-next,
+.portfolio-style-two .carousel.slide .carousel-control-prev {
     top: 106%;
     border-radius: 20%;
     padding: 26px;
   }
 }
-.experience-style-two .carousel.slide .carousel-control-next svg,
-.experience-style-two .carousel.slide .carousel-control-prev svg {
+.portfolio-style-two .carousel.slide .carousel-control-next svg,
+.portfolio-style-two .carousel.slide .carousel-control-prev svg {
   width: 25px;
   position: absolute;
   z-index: 100;
   transition: 0.3s;
   color: var(--color-lightn);
 }
-.experience-style-two .carousel.slide .carousel-control-next:hover svg,
-.experience-style-two .carousel.slide .carousel-control-prev:hover svg {
+.portfolio-style-two .carousel.slide .carousel-control-next:hover svg,
+.portfolio-style-two .carousel.slide .carousel-control-prev:hover svg {
   color: var(--color-primary);
 }
-.experience-style-two .carousel.slide .carousel-control-next {
+.portfolio-style-two .carousel.slide .carousel-control-next {
   right: -30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .experience-style-two .carousel.slide .carousel-control-next {
+  .portfolio-style-two .carousel.slide .carousel-control-next {
     right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel.slide .carousel-control-next {
+  .portfolio-style-two .carousel.slide .carousel-control-next {
     right: 0;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel.slide .carousel-control-next {
+  .portfolio-style-two .carousel.slide .carousel-control-next {
     right: auto;
     left: 15%;
   }
 }
 @media only screen and (max-width: 479px) {
-  .experience-style-two .carousel.slide .carousel-control-next {
+  .portfolio-style-two .carousel.slide .carousel-control-next {
     right: auto;
     left: 27%;
   }
 }
-.experience-style-two .carousel.slide .carousel-control-prev {
+.portfolio-style-two .carousel.slide .carousel-control-prev {
   left: -30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-prev {
     left: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-prev {
     left: 0;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel.slide .carousel-control-prev {
+  .portfolio-style-two .carousel.slide .carousel-control-prev {
     left: 0;
   }
 }
-.experience-style-two .carousel-inner {
+.portfolio-style-two .carousel-inner {
   border-radius: 8px;
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single {
   margin: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .direction {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .direction {
     flex-direction: column-reverse;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .direction {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .direction {
     flex-direction: column-reverse;
   }
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .thumbnail {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .thumbnail {
   z-index: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .thumbnail {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .thumbnail {
     margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .thumbnail {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .thumbnail {
     margin-bottom: 40px;
   }
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .thumbnail img {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .thumbnail img {
   border-radius: 8px;
   width: auto;
   object-fit: fill;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .thumbnail img {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .thumbnail img {
     object-fit: cover;
     width: 100%;
     height: auto;
   }
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .inner {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .inner {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner {
     bottom: 0;
     top: 0;
     transform: translate(0);
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .inner {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner {
     bottom: 0;
     top: 0;
     transform: translate(0);
   }
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .inner .title {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner .title {
   color: var(--color-lightn);
   margin-bottom: 34px;
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .inner p.discription {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner p.discription {
   font-size: 16px;
   line-height: 28px;
   color: var(--color-lightn);
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .inner p.discription {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner p.discription {
     margin-bottom: 15px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .inner p.discription {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner p.discription {
     margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .experience-style-two .carousel-inner .carousel-item .experience-single .inner p.discription {
+  .portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner p.discription {
     margin-bottom: 15px;
   }
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .inner .ft-area .feature-wrapper .single-feature {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner .ft-area .feature-wrapper .single-feature {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .inner .ft-area .feature-wrapper .single-feature svg {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner .ft-area .feature-wrapper .single-feature svg {
   margin-right: 10px;
   position: relative;
   background-color: var(--color-lightn);
@@ -17839,7 +17839,7 @@ span.sr-only {
   width: 22px;
   top: 1px;
 }
-.experience-style-two .carousel-inner .carousel-item .experience-single .inner .ft-area .feature-wrapper .single-feature p {
+.portfolio-style-two .carousel-inner .carousel-item .portfolio-single .inner .ft-area .feature-wrapper .single-feature p {
   color: var(--color-lightn);
   font-size: 16px;
 }
@@ -17855,40 +17855,40 @@ span.sr-only {
   }
 }
 
-.experience-style-three .experience-wrapper-style-one,
-.experience-style-three .blog-wrapper-style-one,
-.blog-style-three .experience-wrapper-style-one,
+.portfolio-style-three .portfolio-wrapper-style-one,
+.portfolio-style-three .blog-wrapper-style-one,
+.blog-style-three .portfolio-wrapper-style-one,
 .blog-style-three .blog-wrapper-style-one {
   padding: 20px 0 20px 0;
 }
-.experience-style-three .experience-wrapper-style-one .inner .thumbnail,
-.experience-style-three .blog-wrapper-style-one .inner .thumbnail,
-.blog-style-three .experience-wrapper-style-one .inner .thumbnail,
+.portfolio-style-three .portfolio-wrapper-style-one .inner .thumbnail,
+.portfolio-style-three .blog-wrapper-style-one .inner .thumbnail,
+.blog-style-three .portfolio-wrapper-style-one .inner .thumbnail,
 .blog-style-three .blog-wrapper-style-one .inner .thumbnail {
   height: 100%;
 }
-.experience-style-three .experience-wrapper-style-one .inner .thumbnail a,
-.experience-style-three .blog-wrapper-style-one .inner .thumbnail a,
-.blog-style-three .experience-wrapper-style-one .inner .thumbnail a,
+.portfolio-style-three .portfolio-wrapper-style-one .inner .thumbnail a,
+.portfolio-style-three .blog-wrapper-style-one .inner .thumbnail a,
+.blog-style-three .portfolio-wrapper-style-one .inner .thumbnail a,
 .blog-style-three .blog-wrapper-style-one .inner .thumbnail a {
   height: 100%;
 }
-.experience-style-three .experience-wrapper-style-one .inner .content,
-.experience-style-three .blog-wrapper-style-one .inner .content,
-.blog-style-three .experience-wrapper-style-one .inner .content,
+.portfolio-style-three .portfolio-wrapper-style-one .inner .content,
+.portfolio-style-three .blog-wrapper-style-one .inner .content,
+.blog-style-three .portfolio-wrapper-style-one .inner .content,
 .blog-style-three .blog-wrapper-style-one .inner .content {
   margin-top: 0;
 }
-.experience-style-three .carousel-control-prev,
+.portfolio-style-three .carousel-control-prev,
 .blog-style-three .carousel-control-prev {
   left: -25px;
 }
-.experience-style-three .carousel-control-next,
+.portfolio-style-three .carousel-control-next,
 .blog-style-three .carousel-control-next {
   right: -25px;
 }
-.experience-style-three .carousel-control-prev,
-.experience-style-three .carousel-control-next,
+.portfolio-style-three .carousel-control-prev,
+.portfolio-style-three .carousel-control-next,
 .blog-style-three .carousel-control-prev,
 .blog-style-three .carousel-control-next {
   width: 20px;
@@ -17900,8 +17900,8 @@ span.sr-only {
   box-shadow: var(--shadow-1);
   opacity: 1;
 }
-.experience-style-three .carousel-control-prev svg,
-.experience-style-three .carousel-control-next svg,
+.portfolio-style-three .carousel-control-prev svg,
+.portfolio-style-three .carousel-control-next svg,
 .blog-style-three .carousel-control-prev svg,
 .blog-style-three .carousel-control-next svg {
   width: 25px;
@@ -17909,16 +17909,16 @@ span.sr-only {
   z-index: 100;
   color: var(--color-primary);
 }
-.experience-style-three .carousel.slide,
+.portfolio-style-three .carousel.slide,
 .blog-style-three .carousel.slide {
   padding-bottom: 0;
 }
-.experience-style-three .carousel .carousel-inner,
+.portfolio-style-three .carousel .carousel-inner,
 .blog-style-three .carousel .carousel-inner {
   padding: 0px 10px;
 }
-.experience-style-three .carousel .carousel-inner .carousel-item .experience-wrapper-style-one,
-.blog-style-three .carousel .carousel-inner .carousel-item .experience-wrapper-style-one {
+.portfolio-style-three .carousel .carousel-inner .carousel-item .portfolio-wrapper-style-one,
+.blog-style-three .carousel .carousel-inner .carousel-item .portfolio-wrapper-style-one {
   padding: 20px 0 20px 0;
 }
 
@@ -17927,40 +17927,40 @@ span.sr-only {
   top: 45%;
 }
 
-.home-classic .experience-style-two {
+.home-classic .portfolio-style-two {
   padding: 60px 0 120px 0;
 }
 
-.item-experience-static .experience-static {
+.item-portfolio-static .portfolio-static {
   padding: 30px;
   background: var(--background-color-1);
   box-shadow: var(--shadow-1);
   border-radius: 15px;
 }
-.item-experience-static .experience-static .thumbnail-inner .thumbnail {
+.item-portfolio-static .portfolio-static .thumbnail-inner .thumbnail {
   overflow: hidden;
   border-radius: 8px;
 }
-.item-experience-static .experience-static .thumbnail-inner .thumbnail img {
+.item-portfolio-static .portfolio-static .thumbnail-inner .thumbnail img {
   border-radius: 8px;
   transition: var(--transition);
 }
-.item-experience-static .experience-static .thumbnail-inner .thumbnail img:hover {
+.item-portfolio-static .portfolio-static .thumbnail-inner .thumbnail img:hover {
   transform: scale(1.03);
 }
-.item-experience-static .content .inner {
+.item-portfolio-static .content .inner {
   padding-top: 20px;
 }
-.item-experience-static .content .inner h4 {
+.item-portfolio-static .content .inner h4 {
   font-size: 25px;
   color: var(--color-lightn);
   transition: var(--transition);
   margin-bottom: 0;
 }
-.item-experience-static .content .inner h4:hover {
+.item-portfolio-static .content .inner h4:hover {
   color: var(--color-primary);
 }
-.item-experience-static .content .inner p {
+.item-portfolio-static .content .inner p {
   margin-bottom: 5px;
   font-size: 16px;
 }
@@ -18483,14 +18483,14 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
   border-top: 17px solid transparent;
   border-bottom: 17px solid transparent;
 }
-.white-version .gallery-wrapper .experience-static {
+.white-version .gallery-wrapper .portfolio-static {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .gallery-wrapper .experience-static .content .inner p {
+.white-version .gallery-wrapper .portfolio-static .content .inner p {
   color: var(--color-primary);
 }
-.white-version .gallery-wrapper .experience-static .content .inner h4 {
+.white-version .gallery-wrapper .portfolio-static .content .inner h4 {
   color: var(--color-heading-wv);
 }
 .white-version .social-share-style-1 .title {
@@ -18527,20 +18527,20 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 .white-version .testimonial-style-2 .testimonial-inner .testimonial-body .discription {
   color: var(--color-body-white);
 }
-.white-version .experience-style-two .experience-single .inner .title {
+.white-version .portfolio-style-two .portfolio-single .inner .title {
   color: var(--color-heading-wv) !important;
 }
-.white-version .experience-style-two .experience-single .inner p.discription {
+.white-version .portfolio-style-two .portfolio-single .inner p.discription {
   color: var(--color-body-white) !important;
 }
-.white-version .experience-style-two .experience-single .inner .ft-area .feature-wrapper .single-feature p {
+.white-version .portfolio-style-two .portfolio-single .inner .ft-area .feature-wrapper .single-feature p {
   color: var(--color-body-white) !important;
 }
-.white-version .experience-style-two .experience-single .inner .ft-area .feature-wrapper .single-feature svg {
+.white-version .portfolio-style-two .portfolio-single .inner .ft-area .feature-wrapper .single-feature svg {
   color: var(--color-body-white) !important;
 }
-.white-version .experience-style-two button,
-.white-version .experience-style-two a {
+.white-version .portfolio-style-two button,
+.white-version .portfolio-style-two a {
   background: var(--gradient-box-w) !important;
   box-shadow: var(--shadow-white-3) !important;
 }
@@ -18843,71 +18843,71 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 .white-version .rn-service:hover .inner .content .read-more-button i {
   color: var(--color-white);
 }
-.white-version .rn-experience,
+.white-version .rn-portfolio,
 .white-version .rn-blog {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .rn-experience::before,
+.white-version .rn-portfolio::before,
 .white-version .rn-blog::before {
   display: none;
 }
-.white-version .rn-experience .inner .content .title a,
+.white-version .rn-portfolio .inner .content .title a,
 .white-version .rn-blog .inner .content .title a {
   color: var(--color-heading-wv);
 }
-.white-version .rn-experience .inner .content .category-info .category-list a,
+.white-version .rn-portfolio .inner .content .category-info .category-list a,
 .white-version .rn-blog .inner .content .category-info .category-list a {
   font-weight: 500;
 }
-.white-version .rn-experience .inner .content .category-info .meta span,
+.white-version .rn-portfolio .inner .content .category-info .meta span,
 .white-version .rn-blog .inner .content .category-info .meta span {
   color: var(--color-body-white);
 }
-.white-version .rn-experience .inner .content .category-info .meta span a i,
+.white-version .rn-portfolio .inner .content .category-info .meta span a i,
 .white-version .rn-blog .inner .content .category-info .meta span a i {
   color: var(--color-body-white);
 }
-.white-version .modal-experience {
+.white-version .modal-portfolio {
   background: #ECF0F3;
 }
-.white-version .modal-experience .modal-dialog {
+.white-version .modal-portfolio .modal-dialog {
   margin: auto;
 }
-.white-version .modal-experience .modal-dialog .modal-content {
+.white-version .modal-portfolio .modal-dialog .modal-content {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-header .close span {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-header .close span {
   transition: var(--transition);
   color: var(--color-primary);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-header .close span::after {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-header .close span::after {
   opacity: 1;
   transition: var(--transition);
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-header .close span:hover {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-header .close span:hover {
   color: var(--color-white);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-header .close span:hover::after {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-header .close span:hover::after {
   background: var(--gradient-red-hover);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-body .text-content p {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-body .text-content p {
   color: var(--color-body-white);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-body .text-content h3 {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-body .text-content h3 {
   color: var(--color-heading-wv);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-body .text-content a.rn-btn {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-body .text-content a.rn-btn {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-body .text-content a.rn-btn::before {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-body .text-content a.rn-btn::before {
   background: var(--gradient-red-hover);
 }
-.white-version .modal-experience .modal-dialog .modal-content .modal-body .text-content a.rn-btn:hover {
+.white-version .modal-portfolio .modal-dialog .modal-content .modal-body .text-content a.rn-btn:hover {
   color: var(--color-white);
 }
 .white-version .modal {
@@ -19563,7 +19563,7 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 }
 
 .white-version .slide.slider-style-3 .slider-wrapper .background-image-area,
-.white-version .experience-style-two .carousel.slide,
+.white-version .portfolio-style-two .carousel.slide,
 .white-version .pricing-style-2 .pricing-wrapper,
 .white-version .pricing-style-2 .pricing-wrapper-pro,
 .white-version .pricing-style-2 .pricing-wrapper-pro .pricing-footer a.rn-btn {
@@ -19585,8 +19585,8 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 .white-version .modal-body .news-details .date,
 .white-version .modal .modal-dialog .modal-content .modal-body .text-content h3 span,
 .white-version .modal .modal-dialog .modal-content .modal-body .text-content p,
-.white-version .experience-style-two .carousel.slide .carousel-control-next svg,
-.white-version .experience-style-two .carousel.slide .carousel-control-prev svg,
+.white-version .portfolio-style-two .carousel.slide .carousel-control-next svg,
+.white-version .portfolio-style-two .carousel.slide .carousel-control-prev svg,
 .white-version .pricing-style-2 .pricing-wrapper .ts-header span,
 .white-version .pricing-style-2 .pricing-wrapper-pro .ts-header span,
 .white-version .pricing-style-2 .pricing-wrapper .pricing-body .feature .name,
@@ -19601,8 +19601,8 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
   background: var(--gradient-red-hover);
 }
 
-.white-version .experience-style-two .carousel.slide .carousel-control-next svg:hover,
-.white-version .experience-style-two .carousel.slide .carousel-control-prev svg:hover,
+.white-version .portfolio-style-two .carousel.slide .carousel-control-next svg:hover,
+.white-version .portfolio-style-two .carousel.slide .carousel-control-prev svg:hover,
 .white-version .pricing-style-2 .pricing-wrapper .price,
 .white-version .pricing-style-2 .pricing-wrapper-pro .price {
   color: var(--color-primary);
@@ -19629,7 +19629,7 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
   color: var(--color-primary);
 }
 
-.white-version .rn-experience .inner .content .title a:hover,
+.white-version .rn-portfolio .inner .content .title a:hover,
 .white-version .rn-blog .inner .content .title a:hover {
   color: var(--color-primary);
 }
