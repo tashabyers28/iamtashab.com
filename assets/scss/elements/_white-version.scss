@@ -265,7 +265,7 @@ body {
 
     // gallery
     .gallery-wrapper {
-        .portfolio-static {
+        .experience-static {
             background: var(--gradient-box-w);
             box-shadow: var(--shadow-white-3);
 
@@ -342,9 +342,9 @@ body {
         }
     }
 
-    // posrtfolio style two
-    .portfolio-style-two {
-        .portfolio-single {
+    // experience style two
+    .experience-style-two {
+        .experience-single {
             .inner {
                 .title {
                     color: var(--color-heading-wv) !important;
@@ -958,8 +958,8 @@ body {
         }
     }
 
-    // rn portfolio area
-    .rn-portfolio,
+    // rn experience area
+    .rn-experience,
     .rn-blog {
         background: var(--gradient-box-w);
         box-shadow: var(--shadow-white-3);
@@ -999,7 +999,7 @@ body {
         }
     }
 
-    .modal-portfolio {
+    .modal-experience {
         background: #ECF0F3;
 
         .modal-dialog {
@@ -2117,7 +2117,7 @@ body {
 }
 
 .white-version .slide.slider-style-3 .slider-wrapper .background-image-area,
-.white-version .portfolio-style-two .carousel.slide,
+.white-version .experience-style-two .carousel.slide,
 .white-version .pricing-style-2 .pricing-wrapper, 
 .white-version .pricing-style-2 .pricing-wrapper-pro ,
 .white-version .pricing-style-2 .pricing-wrapper-pro .pricing-footer a.rn-btn {
@@ -2140,8 +2140,8 @@ body {
 .white-version .modal-body .news-details .date,
 .white-version .modal .modal-dialog .modal-content .modal-body .text-content h3 span ,
 .white-version .modal .modal-dialog .modal-content .modal-body .text-content p ,
-.white-version .portfolio-style-two .carousel.slide .carousel-control-next svg, 
-.white-version .portfolio-style-two .carousel.slide .carousel-control-prev svg ,
+.white-version .experience-style-two .carousel.slide .carousel-control-next svg, 
+.white-version .experience-style-two .carousel.slide .carousel-control-prev svg ,
 .white-version .pricing-style-2 .pricing-wrapper .ts-header span, 
 .white-version .pricing-style-2 .pricing-wrapper-pro .ts-header span ,
 .white-version .pricing-style-2 .pricing-wrapper .pricing-body .feature .name, 
@@ -2158,8 +2158,8 @@ body {
 }
 
 
-.white-version .portfolio-style-two .carousel.slide .carousel-control-next svg:hover, 
-.white-version .portfolio-style-two .carousel.slide .carousel-control-prev svg:hover,
+.white-version .experience-style-two .carousel.slide .carousel-control-next svg:hover, 
+.white-version .experience-style-two .carousel.slide .carousel-control-prev svg:hover,
 .white-version .pricing-style-2 .pricing-wrapper .price, 
 .white-version .pricing-style-2 .pricing-wrapper-pro .price {
     color: var(--color-primary);
@@ -2186,7 +2186,7 @@ body {
     color: var(--color-primary);
 }
 
-.white-version .rn-portfolio .inner .content .title a:hover, 
+.white-version .rn-experience .inner .content .title a:hover, 
 .white-version .rn-blog .inner .content .title a:hover {
     color: var(--color-primary);
 }

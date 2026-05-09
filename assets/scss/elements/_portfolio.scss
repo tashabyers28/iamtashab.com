@@ -1,8 +1,8 @@
 /*---------------------------
-    Portfolio Area Styles 
+    Experience Area Styles 
 -----------------------------*/
 
-.rn-portfolio,
+.rn-experience,
 .rn-blog {
     text-align: left;
     padding: 30px;
@@ -240,8 +240,8 @@
     z-index: 1;
 }
 
-.portfolio-slick-activation {
-    .rn-portfolio-slick {
+.experience-slick-activation {
+    .rn-experience-slick {
         padding: 35px 15px;
     }
 }
@@ -263,9 +263,9 @@
 
 
 /*-----------------------------
-    Portfolio Style Two  
+    experience Style Two  
 -------------------------------*/
-.portfolio-style-two {
+.experience-style-two {
     .carousel {
         &.slide {
             box-shadow: var(--shadow-1);
@@ -388,7 +388,7 @@
         border-radius: 8px;
 
         .carousel-item {
-            .portfolio-single {
+            .experience-single {
                 margin: 0;
                 .direction {
                     @media #{$md-layout} {
@@ -495,7 +495,7 @@
     }
 }
 
-// portfolio style three
+// experience style three
 .blog-style-three {
     &.rn-blog-area {
         h2 {
@@ -514,10 +514,10 @@
     }
 }
 
-.portfolio-style-three,
+.experience-style-three,
 .blog-style-three {
 
-    .portfolio-wrapper-style-one,
+    .experience-wrapper-style-one,
     .blog-wrapper-style-one {
         padding: 20px 0 20px 0;
 
@@ -572,7 +572,7 @@
             padding: 0px 10px;
 
             .carousel-item {
-                .portfolio-wrapper-style-one {
+                .experience-wrapper-style-one {
                     padding: 20px 0 20px 0;
                 }
             }
@@ -591,15 +591,15 @@
 }
 
 .home-classic {
-    .portfolio-style-two {
+    .experience-style-two {
         padding: 60px 0 120px 0;
     }
 }
 
 
 
-.item-portfolio-static {
-    .portfolio-static {
+.item-experience-static {
+    .experience-static {
         padding: 30px;
         background: var(--background-color-1);
         box-shadow: var(--shadow-1);
