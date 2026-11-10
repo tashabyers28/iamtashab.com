@@ -33,7 +33,7 @@ if ($name == "") {
     $msg['field'] = "contact-subject";
     $msg['code'] = FALSE;
 } else {
-    $to = 'tasha@iamtashab.com';
+    $to = 'tashabyers28@yahoo.com';
     $subject = $subject;
     $_message = '<html><head></head><body>';
     $_message .= '<p>Name: ' . $name . '</p>';
@@ -44,10 +44,10 @@ if ($name == "") {
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $headers .= 'From: Tasha B. Website <tasha@iamtashab.com>' . "\r\n";
+    $headers .= 'From: Tasha B. Website <tashabyers28@yahoo.com>' . "\r\n";
     $headers .= 'cc: tashabyers28@yahoo.com' . "\r\n";
     // $headers .= 'bcc: contact@example.com' . "\r\n";
-    mail($to, $subject, $_message, $headers, '-f tasha@iamtashab.com');
+    mail($to, $subject, $_message, $headers, '-f tashabyers28@yahoo.com');
 
     $msg['success'] = "\n Thank you! Your email has been sent successfully.";
     $msg['code'] = TRUE;
